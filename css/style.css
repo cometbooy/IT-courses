@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Vollkorn", serif;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1px solid black;
+    margin: 0px;
+}
+
+
+.study-btn {
+    background: #fbca1f;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 23px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+  }
+  
+.study-btn:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  
+.study-btn:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+
+
+.menu-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-text {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+.courses-btn {
+    margin-left: 150px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 400;
+    padding-right: 45px;
+    padding-left: 45px;
+    background: transparent;
+    border-radius: 20px;
+    font-family: "Vollkorn", serif;
+}
+
+.logo {
+    height: 85px;
+}
+
+.ads {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.guarantee {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    background: #97f5c08e;
+    padding: 25px;
+    border-radius: 50px;
+    transform: rotate(5deg);
+    position: relative;
+    top: -38px;
+    box-shadow: 4px 7px 25px 0px rgba(0, 0, 255, .2);
+}
+
+.bird svg {
+    height: 50px;
+    /* color:     ; */
+}
+
+.ads h1 {
+    max-width: 900px;
+    font-size: 5em;
+    text-align: center;
+}
+
+.swiper {
+    max-height: 300px;
+  }
