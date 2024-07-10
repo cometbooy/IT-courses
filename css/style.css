@@ -12,8 +12,13 @@ body {
     align-items: center;
     padding-left: 60px;
     padding-right: 60px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.189);
     margin: 0px;
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 
@@ -21,8 +26,8 @@ body {
     background: #fbca1f;
     font-family: inherit;
     padding: 0.6em 1.3em;
-    font-weight: 900;
-    font-size: 23px;
+    font-weight: 700;
+    font-size: 20px;
     border: 3px solid black;
     border-radius: 0.4em;
     box-shadow: 0.1em 0.1em;
@@ -44,31 +49,37 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 800px;
 }
 
 .menu-text {
     text-decoration: none;
     color: black;
-    margin-left: 50px;
     font-size: 25px;
     font-weight: 400;
     
 }
 
 .courses-btn {
-    margin-left: 150px;
+    margin-left: ;
     padding: 5px;
     font-size: 25px;
     font-weight: 400;
     padding-right: 45px;
     padding-left: 45px;
     background: transparent;
-    border-radius: 20px;
+    border: 1px solid #7f7f7f49;
+    border-radius: 10px;
     font-family: "Vollkorn", serif;
 }
 
 .logo {
     height: 85px;
+}
+
+.courses-btn .menu-text:hover{
+    border: 1px solid #575757;
+    background: #b0b0b0d7;
 }
 
 .ads {
@@ -107,6 +118,49 @@ body {
     text-align: center;
 }
 
-.swiper {
-    max-height: 300px;
+.doc {
+    background: #fbca1f;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 700;
+    font-size: 15px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
   }
+  
+.doc:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  
+.doc:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+
+.swiper {
+    max-height: 600px;
+  }
+   
+
+.courses-block{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.courses-text{
+    margin-bottom: 50px;
+}
+
+.swipe-btn{
+    color: black;
+}
+
+
+
+
+
