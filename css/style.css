@@ -225,6 +225,10 @@ body {
     padding: 5px;
 }
 
+.prog-text li{
+    color: #4f4f4f;
+}
+
 .swiper {
     max-height: 600px;
   }
